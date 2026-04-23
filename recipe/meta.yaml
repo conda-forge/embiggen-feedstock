@@ -1,13 +1,13 @@
 {% set name = "embiggen" %}
-{% set version = "0.11.95" %}
+{% set version = "0.11.96" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/embiggen-{{ version }}.tar.gz
-  sha256: 6e68b501be2e1ee80a2d2a799bd321dbb1d53c8bb2608118440c09bdc9acb864
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/embiggen-{{ version }}.tar.gz
+  sha256: d045d471dbb872368ad1075a7ad051c7f088f5f2fae2c006b81b6e9485fb5611
 
 build:
   noarch: python
